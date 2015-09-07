@@ -13,7 +13,7 @@ depends=('python2')
 makedepends=('git' 'asciidoc')
 conflicts=('offlineimap')
 provides=('offlineimap')
-source=('git://github.com/OfflineIMAP/offlineimap.git')
+source=('git://github.com/krafczyk/offlineimap.git#branch=master-notifications')
 md5sums=('SKIP')
 
 pkgver() {
